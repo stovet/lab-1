@@ -35,6 +35,9 @@ button {
     background-color: #000;
     color: #FFF;
 } 
+#hire-us {
+    width: 100%
+}
 
 h1 {
     margin-bottom: 0px;
@@ -57,9 +60,9 @@ footer {
     bottom: 0px;
     background-color: rgba(247,193,162,0.7);
 }
-span {
+/* span {
     
-}
+} */
 #bottom_chirpus {
     transform: translatey(-30%);
 }
@@ -71,4 +74,19 @@ span {
 a {
     text-decoration: none;
     color: #69696a;
+}
+
+@media (min-width: 768px){
+    #top-nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    main {
+        width: 50%;
+    }
+    #hire-us{
+        width: 5em;
+        padding: 5px;
+    }
 }
