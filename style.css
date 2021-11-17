@@ -38,7 +38,7 @@ button {
     background-color: #000;
     color: #FFF;
 } 
-#hire-us {
+#hire-us-button{
     width: 100%
 }
 
@@ -69,6 +69,7 @@ footer {
     float: left;
     margin-left: 20px;
     margin-top: 5px;
+    color: #000;
 }
 #bottom_links {
     display: flex;
@@ -92,11 +93,20 @@ a {
         flex-direction: row;
         justify-content: flex-end;
     }
+    #top-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    #top-right-group{
+        display: flex;
+    }
     main {
         width: 50%;
     }
-    #hire-us{
+    #hire-us-button{
         width: 5em;
         padding: 5px;
+        float: right;
+        
     }
 }
