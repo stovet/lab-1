@@ -14,6 +14,12 @@ div {
 nav li{
     color: #69696a;
 }
+#top-right-group li {
+    padding: 2px;
+}
+#top-right-group ul {
+    margin-bottom: 5px;
+}
 
 ul {
     list-style-type: none;
@@ -55,7 +61,8 @@ p {
     color: #69696a;
 }
 footer {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 35px;
     font-size: 15px;
@@ -65,8 +72,8 @@ footer {
     background-color: rgba(247,193,162,0.7);
 }
 
-#bottom_chirpus {
-    float: left;
+#bottom_company_name {
+    /* float: left; */
     margin-left: 20px;
     margin-top: 5px;
     color: #000;
@@ -78,9 +85,7 @@ footer {
     margin-right: 5px;
     
 }
-#bottom_links li {
-    margin-top: 4px;
-}
+
 a {
     text-decoration: none;
     color: #69696a;
@@ -96,9 +101,14 @@ a {
     #top-nav{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     #top-right-group{
         display: flex;
+        
+    }
+    #top-right-group ul li{
+        padding-right: 5px;
     }
     main {
         width: 50%;
@@ -107,6 +117,35 @@ a {
         width: 5em;
         padding: 5px;
         float: right;
-        
+    }
+    #middle-alignment{
+        display: flex;
+        justify-content: space-between;
+    }
+    #large{
+        background-color: rgba(247,136,167, 0.6);
+        border-radius: 50%;
+        width: 130px;
+        height: 130px;
+        position: relative;
+        margin-right: 50px;
+        top: 50px;
+    }
+    #med{
+        background-color: rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 80px;
+        right: -45px;
+    }
+    #small{
+        background-color: rgba(207,130,213, 0.6);
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        bottom: 75px;
     }
 }
